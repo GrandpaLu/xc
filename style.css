@@ -1,0 +1,337 @@
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: #f3f5f7;
+			}
+			ul {
+				list-style: none;
+			}
+			a{	
+				text-decoration: none;
+				color: #050505;
+			}
+			input {
+				border: 0;
+				box-sizing: border-box;
+			}
+			header {
+				height: 100px;
+				overflow: hidden;
+			}
+			nav {
+				width: 1366px;
+				height: 42px;
+				margin: 26px auto;
+			}
+			.clearfix:before, .clearfix:after {
+				display: table;
+				content: "";
+			}
+				
+			.clearfix:after {
+				clear: both;
+			}
+			.clearfix {
+				*zoom: 1;
+			}
+			
+			.container {
+				width: 1200px;
+				margin:0 auto;
+			}
+			.logo {
+				float:left;
+			}
+			.navbar {
+				margin-left:54px;
+				height:42px;
+				float: left;
+			}
+			.navbar li {
+				float: left;
+				line-height: 42px;
+			}
+			.navbar li a{
+				text-decoration: none;
+				padding: 0 8px;
+				display: inline-block;
+			}
+			.navbar li a:hover {
+				border-bottom: 2px solid #00a4ff; 
+			}
+			/* 搜索框部分 */
+			.search {
+				width: 410px;
+				height: 38px;
+				border:1px solid #00a4ff;
+				float: right;
+				margin-right: 30px;
+			}
+			.search input[type="text"] {
+				width: 360px;
+				height: 38px;
+				padding-left: 21px;
+				float: left;
+			}
+			.search input[type="submit"]
+			{
+				width: 50px;
+				height: 39px;
+				float: left;
+				background: #00a4ff url(img/fa-search.png) center center no-repeat;
+			}
+			/* 个人信息部分 */
+			.meassage {
+				float: right;
+				height: 42px;
+			}
+			.meassage li{
+				line-height: 42px;
+				float: left;
+				margin-left: 32px;
+			}
+			.meassage li a {
+				text-decoration: none;
+			}
+			.banner {
+				height: 420px;
+				background-color: #033db2;
+				margin:0 auto;
+				overflow: hidden;
+				
+			}
+			.main {
+				height: 420px;
+				width: 1200px;
+				margin: 0 auto;
+				background: url(img/banner.png);
+				position: relative;
+			}
+			.left {
+				float: left;
+				width: 190px;
+				height: 420px;
+				background: rgba(0,0,0,0.4);
+			}
+			.left li {
+					padding: 12px 86px 12px 20px;
+			}
+			.left li:first-child {
+				padding-top: 22px;
+			}
+			.left li:last-child {
+				padding-bottom: 22px;
+			}
+			.left a{
+				font-size:16px;
+				color: #fff;
+				width: 160px;
+				display: inline-block;
+			}
+			span {
+				float: right;
+			}
+			.left a:hover {
+				color: #00a4ff;
+			}
+			.timetable {
+				background-color: #fff;
+				margin-top: 50px;
+				height: 300px;
+				width: 228px;
+				float: right;
+			}
+			.timetable .top {
+				font-size: 20px;
+				color: #fff;
+				background-color: #9bceea;
+				height: 48px;
+				line-height: 48px;
+				width: 228px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			.timetable li{
+				box-sizing: border-box;
+				margin: 0 auto;
+				padding-top: 8px;
+				height: 60px;
+				width: 190px;
+				border-bottom:1px solid #c9c9c9;
+			}
+			.timetable h4{
+				font-weight: normal;
+				color: #5a5a5a;
+			}
+			.timetable p {
+				color: #b1b1b1;
+				font-size: 12px;
+			}
+			.footer {
+				width: 200px;
+				text-align: center;
+				line-height: 40px;
+				color: #00A4FF;
+				border: 1px solid #00A4FF;
+				margin:12px auto;
+				
+			}
+			.recommand {
+				height: 60px;
+				background: #FFFFFF;
+				margin:0px auto;
+				margin-top: 8px;
+				box-shadow:0 5px 5px rgba(0,0,0,0.2);
+			}
+			.recommand li {
+				float: left;
+				margin: 20px auto;
+				padding: 0 50px;
+				border-right:1px solid #ccc;
+			}
+			.recommand li:first-child a {
+				color: #00A4FF;
+			}
+			.recommand li:last-child{
+				color: #00A4FF;
+				float: right;
+				border: 0px;
+				
+			}
+			.recommand li:last-child a{
+				color: #00A4FF;
+				
+			}
+			.recommand a:hover  {
+				color: #00A4FF;
+			}
+			.circle {
+				width: 170px;
+				height: 20px;
+				position: absolute;
+				bottom: 20px;
+				left: 50%;
+				margin-left: -110px;
+				
+			}
+			.circle li {
+				height: 10px;
+				width: 10px;
+				border-radius: 10px;
+				float: left;
+				background: rgba(255,255,255,0.3);
+				margin: 3px 7px;
+				cursor: pointer;
+			}
+			.circle li:hover {
+				padding-left: 4px;
+				background: #fff;
+			}
+			.recom-products {
+				margin-top: 35px;
+			}
+			.recom-hd {
+				height: 40px;
+			}
+			.recom-products h4 {
+				float: left;
+				color: #838485;
+			}
+			.recom-products a {
+				float: right;
+				margin-right: 34px;
+				margin-top: 10px;
+				color: a5a5a5;
+				font-size: 14px;
+				transition: all 0.3s;
+			}
+			.recom-products a:hover {
+				color: #fff;
+				background-color: #00a4ff;
+			}
+			.recom-bd li{
+				height: 270px;
+				width: 228px;
+				background: #fff;
+				overflow: hidden;
+				box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+				float: left;
+				margin:0px 15px 15px 0px;
+			}
+			.recom-bd li:nth-child(5),
+			.recom-bd li:nth-child(10){
+				margin-right: 0;
+			}
+			.recom-bd li h5,
+			.recom-bd li p{
+				padding: 0 20px 0 24px;
+				margin-top: 12px;
+			}
+			.recom-bd li h5 {
+				font-size: 14px;
+				font-weight: normal;
+				line-height: 22px;
+				color: #050505;
+			}
+			.recom-bd li p {
+				line-height: 22px;
+				font-size: 12px;
+				color: #b8b8b8;
+			}
+			.recom-bd p span {
+				color: #ff7c2d;	
+			}
+			.last-footer {
+				height: 274px;
+				background: #fff;
+			}
+			.last-footer .footer-l {
+				height: 154px;
+				padding: 33px 0 0 25px;
+				float: left;
+			}
+			.footer-l img {
+				margin-bottom: 26px;
+			}
+			.footer-l p {
+				font-size: 12px;
+				color: #666666;
+			}
+			.footer-l a {
+				line-height: 35px;
+				width: 120px;
+				text-align: center;
+				border:1px solid #00a4ff;
+				color: #00a4ff;
+				float: left;
+				margin-top: 10px;
+			}
+			.nav-l {
+				float: right;
+				coloar: #333;
+			}
+			.nav-l dl {
+				height: 155px;
+				margin-top: 33px;
+				float: right;
+				width: 227px;
+			}
+			.nav-l dt {
+				font-size: 16px;
+				hight: 30px;
+			}
+			.nav-l dd a {
+				font-size: 12px;
+				display: block;
+			}
+			.nav-l dd{
+				hight: 21px;
+			}
+			.nav-l  a:hover {
+				color: #00a4ff;
+				text-decoration: underline;
+			}
+			
+			
